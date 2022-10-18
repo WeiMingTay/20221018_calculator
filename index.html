@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Calculator</title>
+		<link rel="stylesheet" href="assets/css/style.css" />
+	</head>
+	<body>
+		<main>
+			<div id="resultArea"></div>
+			<table>
+				<tr>
+					<td onclick="clearDisplay()" class="buttonColor">AC</td>
+					<td onclick="deleteLast()" class="buttonColor">DEL</td>
+					<td onclick="addWert(' / ')" class="buttonColor">/</td>
+					<td onclick="addWert(' * ')" class="buttonColor">x</td>
+				</tr>
+				<tr>
+					<td onclick="addWert(7)">7</td>
+					<td onclick="addWert(8)">8</td>
+					<td onclick="addWert(9)">9</td>
+					<td onclick="addWert(' + ')" class="buttonColor">+</td>
+				</tr>
+				<tr>
+					<td onclick="addWert(4)">4</td>
+					<td onclick="addWert(5)">5</td>
+					<td onclick="addWert(6)">6</td>
+					<td onclick="addWert(' - ')" class="buttonColor">-</td>
+				</tr>
+				<tr>
+					<td onclick="addWert(1)">1</td>
+					<td onclick="addWert(2)">2</td>
+					<td onclick="addWert(3)">3</td>
+					<td onclick="berechneResult()" id="gleich" rowspan="2">=</td>
+				</tr>
+				<tr>
+					<td onclick="addWert(0)">0</td>
+					<td onclick="addWert('00')">00</td>
+					<td onclick="addWert('.')" class="buttonColor">,</td>
+				</tr>
+			</table>
+		</main>
+		<script src="assets/js/script.js"></script>
+	</body>
+</html>
