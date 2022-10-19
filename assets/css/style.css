@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
 * {
+	/* font-family: 'Raleway Dots', cursive; */
 	margin: 0;
 }
 body {
-	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-family: 'Raleway Dots', cursive;
 	background-color: rgba(0, 0, 0, 0.75);
 }
 table {
@@ -14,7 +15,7 @@ table {
 td {
 	width: 25%;
 	text-align: center;
-	font-size: 1.8rem;
+	font-size: 2.5rem;
 	background-color: rgba(0, 0, 0, 0.85);
 }
 td:hover {
@@ -25,7 +26,7 @@ td:hover {
 	height: 30vh;
 	background-color: rgba(60, 60, 60);
 	color: #fff;
-	font-size: 4rem;
+	font-size: 5rem;
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-end;
